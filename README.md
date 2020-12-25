@@ -12,7 +12,7 @@ The task is to solve a noisy CAPTCHA image consisting of 3 digits of varying siz
 
 Result of Pre-Processing (Example):
 
-![Example 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/op1.png)
+![Pre-processing example](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/op1.png)
 
 ## Feature Selection
 The set of features used to train the model are as follows:
@@ -24,7 +24,11 @@ The set of features used to train the model are as follows:
 
 
 ## General Flow
-Each training image is split into 3 distinct props (digits) and the above mentioned features are extracted for each prop
+Each training image is split into 3 distinct props (digits) and the above mentioned features are extracted for each prop. Following is the result of splitting into 3 props:
+
+![Prop 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/p1.png)
+![Prop 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/p2.png)
+![Prop 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/p3.png)
 
 Each **prop** returns a `1 x 6` feature vector
 
