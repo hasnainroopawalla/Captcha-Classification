@@ -10,6 +10,7 @@ The task is to solve a noisy CAPTCHA image consisting of 3 digits of varying siz
 ## Pre-Processing Pipeline
 ![Pipeline](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/pipeline.PNG)
 
+Result of Pre-Processing (Example):
 ![Example 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/op1.png)
 
 ## Feature Selection
@@ -30,9 +31,15 @@ Each **image** returns a `3 x 1 x 6` feature vector (each dimension corresponds 
 
 ## Training and Evaluation
 Training images - 1100
+
 Validation images - 100
 
 3 digits are extracted from each image which corresponds to 3300 training samples
+
+3 models were trained and the results are reported below
+* KNN (k=3)
+* Linear SVM
+* Decision Trees with Adaptive Boosting (maxSplits=30)
 
 ## Results
 ![Results 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/results.PNG)
