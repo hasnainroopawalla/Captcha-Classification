@@ -11,6 +11,7 @@ The task is to solve a noisy CAPTCHA image consisting of 3 digits of varying siz
 ![Pipeline](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/pipeline.PNG)
 
 Result of Pre-Processing (Example):
+
 ![Example 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/op1.png)
 
 ## Feature Selection
