@@ -1,7 +1,8 @@
 # Captcha Classification
-This project was built for Introduction to Image Analysis (1MD110)
+This project was built for the course - Introduction to Image Analysis (1MD110) at Uppsala University
 
-The task is to solve a noisy CAPTCHA image consisting of 3 digits of varying sizes/orientation
+The obejctive is to accurately solve noisy CAPTCHA images (distorted images containing letters and digits used in cyber-security). In this task, each CAPTCHA image is extremely noisy and consists of 3 digits in very erratic orientations as well as several stray marks.
+
 ## Examples
 ![Example 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/ex1.png)
 ![Example 2](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/ex2.png)
@@ -50,7 +51,11 @@ Validation images - 100
 ![Results 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/results.PNG)
 ![Results 2](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/results2.PNG)
 
-An accuracy of ~61% was obtained on a Hidden Test Set
+Best results were obtained by using Decision Trees with Adaptive Boosting (maxSplits=30) with the following metrics:
+
+* A training accuracy of ~97% was obtained
+* Validation accuracy of ~82% was obtained (better evaluation can be performed using cross-validation)
+* Accuracy of ~61% was obtained on a Hidden Test Set
 
 ## Future work
 * Splitting of Digits (overlap) - Conduct repeated (and controlled) Erosion followed by Dilation to break connected components
