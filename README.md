@@ -8,9 +8,9 @@ The task is to solve a noisy CAPTCHA image consisting of 3 digits of varying siz
 
 
 ## Pre-Processing Pipeline
-![Pipeline](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/pipeline.png)
+![Pipeline](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/pipeline.PNG)
 
-
+![Example 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/op1.png)
 
 ## Feature Selection
 The set of features used to train the model are as follows:
@@ -35,4 +35,13 @@ Validation images - 100
 3 digits are extracted from each image which corresponds to 3300 training samples
 
 ## Results
-![Pipeline](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/results.png)
+![Results 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/results.PNG)
+![Results 2](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/results2.PNG)
+
+An accuracy of ~61% was obtained on a Hidden Test Set
+
+## Future work
+* Splitting of Digits (overlap) - Conduct repeated (and controlled) Erosion followed by Dilation to break connected components
+* Resize image to the same size before feature extraction for consistency (or flatten the image itself)
+* Train a CNN architecture to improve accuracy and performance
+* Perform cross-validation for better evaluation
