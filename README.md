@@ -1,7 +1,7 @@
 # Captcha Classification
 This project was built for the course - "Introduction to Image Analysis" (1MD110) at Uppsala University
 
-The obejctive is to accurately solve noisy CAPTCHA images (distorted images containing letters and digits used in cyber-security). In this task, each CAPTCHA image is extremely noisy and consists of 3 digits in very erratic orientations as well as several stray marks.
+The objective is to accurately solve noisy CAPTCHA images (distorted images containing letters and digits used in cyber-security). In this task, each CAPTCHA image is extremely noisy and consists of 3 digits in very erratic orientations as well as several stray marks.
 
 ## Examples
 ![Example 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/ex1.png)
