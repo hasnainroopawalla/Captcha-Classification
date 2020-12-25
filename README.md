@@ -58,7 +58,7 @@ Best results were obtained by using *Decision Trees with Adaptive Boosting (maxS
 * Accuracy of ~61% was obtained on a Hidden Test Set
 
 ## Future work
-* Splitting of Digits (overlap) - Conduct repeated (and controlled) Erosion followed by Dilation to break connected components
+* Splitting of Digits can be optimized for overlapping digits by conducting repeated (and controlled) Erosion followed by Dilation to break connected components
 * Resize image to the same size before feature extraction for consistency (or flatten the image itself)
 * Train a CNN architecture to improve accuracy and performance
 * Perform cross-validation for better evaluation
