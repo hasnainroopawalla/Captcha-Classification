@@ -3,7 +3,7 @@ This project was built for the course - "Introduction to Image Analysis" (1MD110
 
 The objective is to accurately solve noisy CAPTCHA images (distorted images containing letters and digits used in cyber-security). In this task, each CAPTCHA image is extremely noisy and consists of 3 digits in very erratic orientations as well as several stray marks.
 
-## Examples
+## Input Examples
 ![Example 1](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/ex1.png)
 ![Example 2](https://github.com/hasnainroopawalla/Captcha-Classification/blob/main/images/ex2.png)
 
